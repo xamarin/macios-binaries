@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<monodoc>
+  <node label="MonoTouch Framework" name="MonoTouch-lib" parent="libraries"/>
+  <source provider="man" basefile="MonoTouch-man" path="man"/>
+  <source provider="ecma" basefile="MonoTouch-lib" path="MonoTouch-lib"/>
+</monodoc>
+
