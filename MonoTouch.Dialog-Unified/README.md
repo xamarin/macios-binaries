@@ -1,3 +1,3 @@
 # Monotouch.Dialog Unified #
 
-iOS and tvOS MonoTouch.Dialog binaries built from MonoTouch.Dialog/master @ [92c6e14226b83be5d972a72511f189964507b38b](https://github.com/migueldeicaza/MonoTouch.Dialog/commit/92c6e14226b83be5d972a72511f189964507b38b)
+iOS and tvOS MonoTouch.Dialog binaries built from MonoTouch.Dialog/frozen-xi-binary @ [188ba0ac4511b7f93a1e94a1f67cc581e682907c](https://github.com/migueldeicaza/MonoTouch.Dialog/commit/188ba0ac4511b7f93a1e94a1f67cc581e682907c)
