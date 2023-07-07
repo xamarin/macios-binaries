@@ -1,0 +1,21 @@
+id: 
+name: GitOps.PullRequestIssueManagement
+description: GitOps.PullRequestIssueManagement primitive
+owner: 
+resource: repository
+disabled: false
+where: 
+configuration:
+  resourceManagementConfiguration:
+    scheduledSearches: []
+    eventResponderTasks:
+    - if:
+      - payloadType: Issues
+      - labelAdded:
+          label: need-info
+      then:
+      - addReply:
+          reply: This issue require more information, and will be closed if more information hasn't been provided.
+      description: 
+onFailure: 
+onSuccess: 
